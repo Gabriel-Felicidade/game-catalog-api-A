@@ -1,0 +1,9 @@
+org\acme\Desenvolvedora.class
+org\acme\idempotency\IdempotencyFilter$IdempotencyRecord.class
+org\acme\exception\ValidationExceptionMapper$ErrorBody.class
+org\acme\idempotency\IdempotencyFilter$IdempotentContext.class
+org\acme\idempotency\IdempotencyFilter.class
+org\acme\RateLimitingFilter.class
+org\acme\DesenvolvedoraResource.class
+org\acme\exception\ValidationExceptionMapper.class
+org\acme\idempotency\Idempotent.class
