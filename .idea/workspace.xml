@@ -5,35 +5,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8edeaaa-315c-4e99-8870-7ca067ceb92c" name="Changes" comment="Update import.sql">
-      <change afterPath="$PROJECT_DIR$/.idea/QuarkusDeploymentProjectService.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/acme/Desenvolvedora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/acme/DesenvolvedoraResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/acme/Genero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/acme/GeneroResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/acme/Jogo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/acme/JogoResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO2/app/src/main/java/com/example/myapplication/ado2/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/androidTest/java/com/example/myapplication/ado3/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/java/com/example/myapplication/ado3/RetrofitClient.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/app/src/test/java/com/example/myapplication/ado3/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ADO3/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game-Api-Catalog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/acme/SearchDesenvolvedoraResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/acme/SearchGeneroResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/acme/SearchJogoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game-Api-Catalog-front" beforeDir="false" afterPath="$PROJECT_DIR$/../Game-Api-Catalog-front" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/API-CaoAmigo-dev.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/API-CaoAmigo-dev.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/Adocao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/AdocaoResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/Cachorro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/CachorroResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/DesenvolvedoraResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/acme/DesenvolvedoraResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/FichaCachorro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/GeneroResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/acme/GeneroResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/JogoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/acme/JogoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/Raca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/RacaResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/RateLimitingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/acme/RateLimitingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/SearchAdocaoResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/SearchCachorroResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/SearchRacaResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API-CaoAmigo-dev.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/build-metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/build-metrics.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/Adocao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/Adocao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/AdocaoResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/AdocaoResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/Cachorro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/Cachorro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/CachorroResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/CachorroResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/FichaCachorro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/FichaCachorro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/Raca.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/Raca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/RacaResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/RacaResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/SearchAdocaoResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/SearchAdocaoResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/SearchCachorroResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/SearchCachorroResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/SearchRacaResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/SearchRacaResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/DesenvolvedoraResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/DesenvolvedoraResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/GeneroResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/GeneroResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/JogoResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/JogoResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/RateLimitingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/RateLimitingFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/null/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/null/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/null/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/quarkus/bootstrap/dev-app-model.dat" beforeDir="false" afterPath="$PROJECT_DIR$/target/quarkus/bootstrap/dev-app-model.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/quarkus/bootstrap/dev-app-model.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/quarkus/bootstrap/test-app-model.dat" beforeDir="false" afterPath="$PROJECT_DIR$/target/quarkus/bootstrap/test-app-model.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/acme/GreetingResourceIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/acme/GreetingResourceIT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/acme/GreetingResourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/acme/GreetingResourceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +103,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/maiksilva-hub/api-caoamigo.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Gabriel-Felicidade/game-catalog-api-A.git&quot;,
     &quot;accountId&quot;: &quot;d1882c70-e44f-4a9b-a39e-415070f0e261&quot;
   }
 }</component>
@@ -79,11 +119,12 @@
   &quot;keyToString&quot;: {
     &quot;Quarkus Dev Mode.API-CaoAmigo.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/evander.mcsilva3/Desktop/api-caoamigo&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gabriel/OneDrive - SENAC - SP/Documentos/projetos/api-catalog-A&quot;
   }
 }</component>
   <component name="RunDashboard">
@@ -128,6 +169,17 @@
       <updated>1762900309728</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update import.sql" />

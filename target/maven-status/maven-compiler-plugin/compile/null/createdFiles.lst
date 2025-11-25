@@ -1,9 +1,16 @@
 org\acme\Desenvolvedora.class
 org\acme\idempotency\IdempotencyFilter$IdempotencyRecord.class
+org\acme\SearchGeneroResponse.class
 org\acme\exception\ValidationExceptionMapper$ErrorBody.class
+org\acme\SearchDesenvolvedoraResponse.class
 org\acme\idempotency\IdempotencyFilter$IdempotentContext.class
+org\acme\Jogo.class
+org\acme\SearchJogoResponse.class
+org\acme\Genero.class
 org\acme\idempotency\IdempotencyFilter.class
 org\acme\RateLimitingFilter.class
+org\acme\GeneroResource.class
 org\acme\DesenvolvedoraResource.class
 org\acme\exception\ValidationExceptionMapper.class
 org\acme\idempotency\Idempotent.class
+org\acme\JogoResource.class

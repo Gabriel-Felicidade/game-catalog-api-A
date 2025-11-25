@@ -17,7 +17,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 @Priority(Priorities.HEADER_DECORATOR)
 public class RateLimitingFilter implements ContainerRequestFilter, ContainerResponseFilter {
 
-    private static final int MAX_REQUESTS = 10;
+    private static final int MAX_REQUESTS = 5;
     private static final int WINDOW_SECONDS = 60;
 
     private final Cache<String, AtomicInteger> requestCounts = Caffeine.newBuilder()

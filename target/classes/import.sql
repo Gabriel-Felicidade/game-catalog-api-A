@@ -1,86 +1,20 @@
--- This file allow to write SQL commands that will be emitted in test and dev.
--- The commands are commented as their support depends of the database
--- insert into myentity (id, field) values(1, 'field-1');
--- insert into myentity (id, field) values(2, 'field-2');
--- insert into myentity (id, field) values(3, 'field-3');
--- alter sequence myentity_seq restart with 4;
+-- Inserindo Desenvolvedoras
+INSERT INTO Desenvolvedora (nome, dataDeFundacao, paisDeOrigem) VALUES ('Nintendo', '1889-09-23', 'Japão');
+INSERT INTO Desenvolvedora (nome, dataDeFundacao, paisDeOrigem) VALUES ('Valve Corporation', '1996-08-24', 'Estados Unidos');
+INSERT INTO Desenvolvedora (nome, dataDeFundacao, paisDeOrigem) VALUES ('CD Projekt Red', '2002-02-01', 'Polônia');
+INSERT INTO Desenvolvedora (nome, dataDeFundacao, paisDeOrigem) VALUES ('Capcom', '1979-05-30', 'Japão');
+INSERT INTO Desenvolvedora (nome, dataDeFundacao, paisDeOrigem) VALUES ('ConcernedApe', '2012-01-01', 'Estados Unidos');
 
--- Insere dados na tabela FichaCachorro
-insert into FichaCachorro (descricaoHistoria, temperamentoPrincipal, habilidadesEspeciais) values(
-                                                                                                     'Resgatada de uma situação de maus-tratos. Ela é tímida com estranhos, mas extremamente leal e carinhosa com quem confia. Precisa de um lar paciente.',
-                                                                                                     'Tímida, mas leal',
-                                                                                                     'Excelente farejadora, aprende comandos rapidamente'
-                                                                                                 );
+-- Inserindo Gêneros
+INSERT INTO Genero (nome, descricao) VALUES ('Ação', 'Jogos que enfatizam desafios físicos, incluindo coordenação mão-olho e tempos de reação.');
+INSERT INTO Genero (nome, descricao) VALUES ('RPG', 'Role-Playing Game, onde o jogador controla as ações de um personagem imerso em um mundo bem definido.');
+INSERT INTO Genero (nome, descricao) VALUES ('Estratégia', 'Jogos onde a vitória é alcançada através de pensamento e planejamento tático superior.');
+INSERT INTO Genero (nome, descricao) VALUES ('Simulação', 'Jogos projetados para simular atividades do mundo real.');
+INSERT INTO Genero (nome, descricao) VALUES ('Terror', 'Jogos projetados para assustar o jogador através de suspense e horror.');
 
-insert into FichaCachorro (descricaoHistoria, temperamentoPrincipal, habilidadesEspeciais) values(
-                                                                                                     'Encontrado abandonado na rua. Este filhote é muito enérgico e brincalhão, adora correr e explorar. Ideal para uma família ativa com espaço para ele se exercitar.',
-                                                                                                     'Brincalhão, enérgico',
-                                                                                                     'Ótimo com crianças, adora buscar bolinhas'
-                                                                                                 );
-
-insert into FichaCachorro (descricaoHistoria, temperamentoPrincipal, habilidadesEspeciais) values(
-                                                                                                     'Cachorro de porte grande que precisa de um espaço com quintal para brincar. Ele se dá bem com outros cães e gatos, mas tem medo de barulhos altos como fogos de artifício.',
-                                                                                                     'Calmo, sociável',
-                                                                                                     'Guardião, protetor do lar'
-                                                                                                 );
-
-insert into FichaCachorro (descricaoHistoria, temperamentoPrincipal, habilidadesEspeciais) values(
-                                                                                                     'Cachorro resgatado após ser ferido em um atropelamento. Ele se recuperou bem e agora adora carinho e colo. É um companheiro ideal para uma pessoa que mora sozinha.',
-                                                                                                     'Afetuoso, tranquilo',
-                                                                                                     'Não solta pelos'
-                                                                                                 );
-
-insert into FichaCachorro (descricaoHistoria, temperamentoPrincipal, habilidadesEspeciais) values(
-                                                                                                     'Cachorro idoso que foi entregue ao abrigo por seu tutor que não podia mais cuidar dele. Ele é muito dócil e adora uma boa soneca. Ideal para um lar tranquilo.',
-                                                                                                     'Dócil, preguiçoso',
-                                                                                                     'Não late muito'
-                                                                                                 );
-
--- Insere dados na tabela Cachorro
-insert into Cachorro (nome, dataDeNascimento, localDeResgate, ficha_cachorro_id) values('Luna', '2023-05-15', 'São Paulo', 1);
-insert into Cachorro (nome, dataDeNascimento, localDeResgate, ficha_cachorro_id) values('Spike', '2024-01-20', 'Rio de Janeiro', 2);
-insert into Cachorro (nome, dataDeNascimento, localDeResgate, ficha_cachorro_id) values('Max', '2022-03-05', 'Belo Horizonte', 3);
-insert into Cachorro (nome, dataDeNascimento, localDeResgate, ficha_cachorro_id) values('Pipoca', '2023-08-10', 'Salvador', 4);
-insert into Cachorro (nome, dataDeNascimento, localDeResgate, ficha_cachorro_id) values('Toby', '2018-09-01', 'Curitiba', 5);
-
--- Insere dados na tabela Raca
-insert into Raca (nome, descricao) values('SRD', 'Sem Raça Definida. Cães únicos e cheios de personalidade.');
-insert into Raca (nome, descricao) values('Golden Retriever', 'Raça de grande porte, conhecida por sua inteligência e temperamento gentil.');
-insert into Raca (nome, descricao) values('Poodle', 'Cães de companhia inteligentes, de pelagem hipoalergênica e que se adaptam bem a apartamentos.');
-insert into Raca (nome, descricao) values('Shih Tzu', 'Raça pequena e de temperamento dócil, perfeita para viver em ambientes internos.');
-insert into Raca (nome, descricao) values('Pastor Alemão', 'Cães de trabalho inteligentes e confiáveis, frequentemente usados como cães de guarda ou serviço.');
-
--- Insere dados na tabela Adocao
-insert into Adocao (dataSolicitacao, justificativa, status, cachorro_id) values(
-                                                                                   '2024-09-20',
-                                                                                   'Sempre quis um companheiro para me fazer companhia no meu apartamento, e Luna parece a cachorra perfeita para mim.',
-                                                                                   'Pendente',
-                                                                                   1
-                                                                               );
-
-insert into Adocao (dataSolicitacao, justificativa, status, cachorro_id) values(
-                                                                                   '2024-09-21',
-                                                                                   'Minha família adora cachorros e temos um grande quintal para o Max. Queremos dar um novo lar a ele.',
-                                                                                   'Aprovada',
-                                                                                   3
-                                                                               );
-
-insert into Adocao (dataSolicitacao, justificativa, status, cachorro_id) values(
-                                                                                   '2024-09-22',
-                                                                                   'Quero um cachorro que me ajude a me exercitar e passar mais tempo ao ar livre. Spike parece o ideal para a minha vida ativa.',
-                                                                                   'Pendente',
-                                                                                   2
-                                                                               );
-
-insert into Adocao (dataSolicitacao, justificativa, status, cachorro_id) values(
-                                                                                   '2024-09-22',
-                                                                                   'Sempre tive um carinho especial por cachorros idosos. Gostaria de dar a Toby um lar tranquilo e amoroso para seus últimos anos.',
-                                                                                   'Pendente',
-                                                                                   5
-                                                                               );
-
--- Associações adoção-raça (Many-to-Many)
-insert into adocao_raca (adocao_id, raca_id) values (1, 1), (1, 3); -- Luna, SRD e Poodle
-insert into adocao_raca (adocao_id, raca_id) values (2, 5);          -- Max, Pastor Alemão
-insert into adocao_raca (adocao_id, raca_id) values (3, 1);          -- Spike, SRD
-insert into adocao_raca (adocao_id, raca_id) values (4, 4);          -- Pipoca, Shih Tzu
+-- Inserindo Jogos
+INSERT INTO Jogo (titulo, descricao, anoLancamento) VALUES ('The Legend of Zelda: Breath of the Wild', 'Jogo de ação e aventura em mundo aberto onde Link acorda de um sono de 100 anos.', 2017);
+INSERT INTO Jogo (titulo, descricao, anoLancamento) VALUES ('Half-Life 2', 'Tiro em primeira pessoa que combina ação intensa com uma narrativa imersiva.', 2004);
+INSERT INTO Jogo (titulo, descricao, anoLancamento) VALUES ('The Witcher 3: Wild Hunt', 'RPG de ação focado em narrativa ambientado em um mundo de fantasia visualmente deslumbrante.', 2015);
+INSERT INTO Jogo (titulo, descricao, anoLancamento) VALUES ('Stardew Valley', 'Um RPG de simulação agrícola onde você herda a antiga fazenda do seu avô.', 2016);
+INSERT INTO Jogo (titulo, descricao, anoLancamento) VALUES ('Resident Evil 4', 'Jogo de terror de sobrevivência que segue o agente especial Leon S. Kennedy.', 2005);
