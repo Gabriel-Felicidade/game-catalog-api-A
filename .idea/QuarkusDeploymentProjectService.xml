@@ -11,6 +11,14 @@
             </ModuleState>
           </value>
         </entry>
+        <entry key="API-CatalogGame">
+          <value>
+            <ModuleState>
+              <option name="hash" value="-357271502" />
+              <option name="version" value="1" />
+            </ModuleState>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
