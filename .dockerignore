@@ -5,8 +5,8 @@
 !mvnw
 !mvnw.cmd
 !pom.xml
-!.mvn/
-!src/
+mvn/
+src/
 
 # Include target artifacts if they exist
 !target/*-runner
